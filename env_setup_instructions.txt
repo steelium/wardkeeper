@@ -1,0 +1,11 @@
+To set up virtual env with requirements, run the following commands:
+git clone <blahblahblah> directory_name
+cd directory_name
+virtualenv venv
+<windows shell> venv\scripts\activate
+<bash shell> . venv/bin/activate
+pip install -r requirements.txt
+
+this will get you in the virtual environment with all the dependencies
+
+make sure to name the virtualenv folder "venv" or the .gitignore here won't filter it out when looking for files to add/commit, or just modify your local .gitignore to ignore the venv folder
